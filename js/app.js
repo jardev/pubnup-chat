@@ -16,7 +16,7 @@ var App = function() {
         return chance.last().toLowerCase();
     }
     var initUser = function() {
-        username = generateUsername;
+        username = generateUsername();
         $("#username").text(username);
     }
     var autoResizeTextarea = function() {

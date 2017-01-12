@@ -1,0 +1,30 @@
+#message {
+    width:100%;
+    resize: vertical;
+    overflow: auto;
+    max-height:300px;
+}
+
+#chat .sender {
+    color: darkblue;
+}
+#chat .me .sender {
+    font-weight: bold;
+}
+#chat {
+    list-style-type: none;
+    margin:0;
+    padding-left:4px;
+    max-height: 385px;
+    overflow: auto;
+}
+#chat li {
+    padding:2px;
+}
+
+#map {
+    height: 540px;
+    width:100%;
+}
+
+

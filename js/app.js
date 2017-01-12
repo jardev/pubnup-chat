@@ -83,7 +83,7 @@ var App = function() {
                 "</li>")
             );
             tabindex++;
-            $('#chat').scrollTop($('#chat').height());
+            $('#chat').scrollTop($('#chat').height() + 16);
         }
         updateUserLocation(data.username, data.location);
         highlightLocation(data.username);

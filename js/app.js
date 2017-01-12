@@ -74,7 +74,6 @@ var App = function() {
     };
     var tabindex = 1;
     var handleMessage = function(data) {
-        console.log(data);
         if (data.text) {
             $("#chat").append($(
                 "<li tabindex='" + tabindex + "' class='message" +
